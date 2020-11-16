@@ -21,14 +21,14 @@ TECH QUESTIONS:
 3) What is iteration?
 
 CODE PROMPT:  
-As a developer, you are given an array of mixed data. Create a function that takes the array and the name of a data type and returns an array with only the the values that match the given data type.
+As a developer, you are given an array of mixed data. Create a function that takes the array and returns an array with only the the values that that are strings.
 
 INSTRUCTOR'S NOTES:
 ```javascript
 let testArray = [3, 4, 5, true, false, true, "hello", "hey", "yo"]
 
-const filterArray = (array, datatype) => {
-  // can use filter and typeof
+const filterArray = (array) => {
+  // can use filter and typeof "string"
 }
 console.log(filterArray(testArray, "string"))
 // Output: ["hello", "hey", "yo"]
