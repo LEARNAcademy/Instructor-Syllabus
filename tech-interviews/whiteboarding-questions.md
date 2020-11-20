@@ -65,7 +65,7 @@ TECH QUESTIONS:
 3) What is a branch?  
 
 PROMPT:  
-As a developer you are tasked with calculating some information for a farmer. The farmer has chickens (2 legs), goats (4 legs) and horses (4 legs). Create a function that returns the total number of legs on the farm.
+As a developer you are tasked with calculating some information for a farmer. The farmer has chickens (2 legs), goats (4 legs) and horses (4 legs). Create a function that takes in the three animal quantities and returns the total number of legs on the farm.
 
 INSTRUCTOR'S NOTES:
 ```javascript
