@@ -26,18 +26,6 @@ Preset breakout rooms can be added to the reoccurring Zoom meeting. Rooms can be
 - Sun Bear Forest
 - Aviary
 
-**California National Parks**
-- Yosemite
-- Joshua Tree
-- Redwood
-- Sequoia
-- Kings Canyon
-- Channel Island
-- Pinnacles
-- Lassen Volcanic
-- Point Reyes
-- Death Valley
-
 **Planets**
 - Mercury
 - Venus
@@ -49,6 +37,30 @@ Preset breakout rooms can be added to the reoccurring Zoom meeting. Rooms can be
 - Pluto
 - Moon
 - Sun
+
+**Cartoon Locations**
+- Wonderland
+- The Hundred Acre Woods
+- Neverland
+- Mount Olympus
+- Cave of Wonders
+- Pride Rock
+- Atlantis
+- Radiator Springs
+- Halloween Town
+- Monstropolis
+
+**California National Parks**
+- Yosemite
+- Joshua Tree
+- Redwood
+- Sequoia
+- Kings Canyon
+- Channel Island
+- Pinnacles
+- Lassen Volcanic
+- Point Reyes
+- Death Valley
 
 **Famous Landmarks**
 - Eiffel Tower
