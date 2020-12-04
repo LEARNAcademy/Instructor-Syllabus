@@ -1,0 +1,9 @@
+<ul>
+  <% @posts.each do |post| %>
+    <li>
+      <%= post.title %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to 'New post', new_post_path %>

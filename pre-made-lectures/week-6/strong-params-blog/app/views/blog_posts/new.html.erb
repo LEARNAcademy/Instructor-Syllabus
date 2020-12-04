@@ -1,0 +1,13 @@
+<h1>Add a New Post</h1>
+
+<%# change this to model when using strong params %>
+<%= form_with model: @blog_post, local: true do |form| %>
+
+  <%= form.label :title %>
+  <%= form.text_field :title %>
+
+  <%= form.label :content %>
+  <%= form.text_field :content %>
+
+  <%= form.submit :create %>
+<% end %>
