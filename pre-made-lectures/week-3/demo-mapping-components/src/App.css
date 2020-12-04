@@ -1,0 +1,21 @@
+body{
+  margin: 1em;
+  text-align: center;
+}
+#gameBoard {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 300px;
+  border: 5px solid black;
+  margin: 0 auto;
+  background-color: #e6faff;
+}
+#square {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+}
