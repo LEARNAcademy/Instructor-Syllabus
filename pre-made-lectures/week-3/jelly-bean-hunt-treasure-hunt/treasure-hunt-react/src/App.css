@@ -1,0 +1,100 @@
+#root {
+  background-color: #c7f4ff;
+}
+
+#board {
+  /* background-image: url("./assets/beanBaby.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: right bottom; */
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  background-image: url("./assets/grass.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#column1 {
+  height: 400px;
+  background-image: url("./assets/beanBaby.png");
+  background-repeat: no-repeat;
+  background-size: 140px;
+  background-position: right bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#intro {
+  margin-bottom: 110px
+}
+
+button {
+  background-color: #fab36b;
+}
+
+button:hover {
+  box-shadow: 4px 4px #c2c2c2;
+}
+
+button:active {
+  box-shadow: 5px 5px #c2c2c2;
+}
+
+#column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px
+}
+
+#grid {
+  height: 309px;
+  width: 310px;
+  color: purple;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#square {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: rgba(240, 141, 236, 0.4);
+  margin-left: 1px;
+  -webkit-box-shadow: inset -1px 1px 5px 7px rgba(255, 255, 255, .5);
+  -moz-box-shadow: inset -1px 1px 5px 7px rgba(255, 255, 255, .5);
+  box-shadow: inset -1px 1px 5px 7px rgba(255, 255, 255, .5)
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: bolder;
+  text-shadow: 1px 1px 0 #fca9ed, 1px 2px 1px #fca9ed;
+}
+
+#counter {
+  font-size: 25px;
+  margin: 0;
+  text-shadow: 1px 1px 0 #FFFFFF, 1px 2px 1px #FFFFFF;
+
+}
+
+h1 {
+  font-family: 'Francois One', sans-serif;
+  margin-top: 0;
+  color: #fff78c;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  font-size: 35px
+}
