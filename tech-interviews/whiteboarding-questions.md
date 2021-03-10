@@ -178,12 +178,12 @@ puts split_nums 34567
 TECH QUESTIONS:  
 1) When working in a group, what role do you find yourself naturally gravitate towards?  
 2) What is a relational database?  
-3) What is an aggregate function in SQL?  
+3) What is an example of a domaine specifc language? 
 
 PROMPT:  
-(Part 1) As a developer, you have been tasked with creating a database for your client who sells giant cookies online. What columns would you recommend to your client to have in the cookie table? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
+(Part 1) As a developer, you have been tasked with creating a database table for a client who sells cookies online. What columns would you recommend to your client to have in the cookie table? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
 
-(Part 2) Write a SQL query that will return the type and price of the most expensive cookie in the database.
+(Part 2) Write a SQL query that will return the type and price of the most expensive cookie in the table.
 
 INSTRUCTOR'S NOTES:  
 Possible columns include type of cookie, price, size, cost of materials, calories, delivery date, delivery location, special instructions... The goal is to get them asking questions and doing some creative thinking.
@@ -197,21 +197,22 @@ LIMIT 1
 **Student 2:**  
 TECH QUESTIONS:  
 1) Do you consider your personality more outgoing or more reserved?  
-2) What is a schema?  
-3) What is the purpose of an ORM?  
+2) What is the difference between a scripting language and a markup language?  
+3) What is SQL?
 
 PROMPT:  
-(Part 1) As a developer, you have been tasked with creating a database for your client who works in the mail room of a large office building and needs an app to notify people when they receive mail. What columns would you recommend to your client to have in the mail table? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
+(Part 1) As a developer, you have been tasked with creating a database table for a client who works in a greenhouse and needs to keep track of the plants for sale. What columns would you recommend to your client to have in the plant table? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
 
-(Part 2) Write an Active Record statement to be executed in the Rails console that will update the office suite/number of one instance in the Mail table.
+(Part 2) Write a SQL query that will return how many plants in the greenhouse are in the category succulents.
 
 INSTRUCTOR'S NOTES:  
-Possible columns include office suite/number, addressee, type of mail (letter vs package), date arrived, office contact information, did the mail need to be signed for... The goal is to get them asking questions and doing some creative thinking.
+Possible columns include plant species name, category, sunlight needs, price, pot size, projected growth, humidity needs, recommended watering/fertilizer schedule... The goal is to get them asking questions and doing some creative thinking.
 
-```ruby
-letter = Mail.find <id>
-letter.office_suite = "12C"
-letter.save
+```sql
+SELECT plant_category, count(plant_type)
+FROM plant
+WHERE plant_category='succulent'
+GROUP BY plant_category
 ```
 
 [ Back to the Top ](#white-board-exercises)
