@@ -92,9 +92,9 @@ secretSociety = (array) => {
   // can use substring, charAt, [0], etc
   // note that .sort() will treat lower and uppercase letters differently
 }
-console.log(secretSociety(["rachael", "sarah", "andee"]))
---> "ars"
---> "ARS" (stretch)
+console.log(secretSociety(["rachael", "sarah", "mina"]))
+--> "mrs"
+--> "MRS" (stretch)
 ```
 
 [ Back to the Top ](#white-board-exercises)
@@ -178,7 +178,7 @@ puts split_nums 34567
 TECH QUESTIONS:  
 1) When working in a group, what role do you find yourself naturally gravitate towards?  
 2) What is a relational database?  
-3) What is an example of a domaine specifc language? 
+3) What is an example of a domaine specific language? 
 
 PROMPT:  
 (Part 1) As a developer, you have been tasked with creating a database table for a client who sells cookies online. What columns would you recommend to your client to have in the cookie table? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
